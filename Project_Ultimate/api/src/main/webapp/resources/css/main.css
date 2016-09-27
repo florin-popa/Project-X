@@ -1,0 +1,59 @@
+body {
+    background: #cccccc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #cccccc, #4d4d4d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #cccccc, #4d4d4d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: 100% 100%;
+    font-family: Batani;
+}
+
+h1 {
+    background: repeating-linear-gradient(
+            -30deg,
+            #003366,
+            #00628b 250px,
+            #e6e6dc 30px,
+            #e6e6dc 20px
+    );
+    margin:auto;
+    color: #333;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.image {
+    padding:6px;
+}
+
+.row {
+    float: left;
+    position: absolute;
+}
+
+.col {
+    padding: 30px;
+    float: left;
+}
+
+.master {
+    margin: auto;
+    width: 41%;
+}
+
+.footer {
+    font-family: Arial;
+    font-size: small;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: repeating-linear-gradient(
+            -30deg,
+            #003366,
+            #00628b 250px,
+            #e6e6dc 30px,
+            #e6e6dc 20px
+    );
+}
